@@ -18,7 +18,8 @@
     "xlsx": "^0.18.5"
   },
   "scripts": {
-    "start": "webpack serve --mode development --open",  
-    "build": "webpack --mode production"
-  }
+  "start": "npx webpack serve --mode development",
+  "build": "npx webpack --mode production"
+}
+
 }
