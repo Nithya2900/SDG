@@ -1,4 +1,9 @@
 {
+  "scripts": {
+  "start": "webpack serve --mode development --open",
+  "build": "webpack --mode production"
+}
+
   "devDependencies": {
     "@babel/core": "^7.26.8",
     "@babel/preset-env": "^7.26.8",
